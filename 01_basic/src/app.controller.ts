@@ -9,4 +9,11 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+  // @Get('docs')
+  // @Redirect('https://docs.nestjs.com', 302)
+  // getDocs(@Query('version') version?: string) {
+  //   if (version === '5') {
+  //     return { url: 'https://docs.nestjs.com/v5/' };
+  //   }
+  // }
 }
